@@ -1,0 +1,20 @@
+# Terraform (Estados y proveedores)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Variables de entorno y secretos
+.env
+*token*
+*.key
+*.pem
+
+# Node.js dependencias
+node_modules/
+
+# Archivos de prueba temporales
+trivy_node14.txt
+descarga_anonima.txt
+prueba.txt
+archivo_prueba.txt
